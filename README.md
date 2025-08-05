@@ -1,17 +1,16 @@
-# sv
+# sveltekit-template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Code examples are provided in `src/routes/embed` at [auav-web-dev](https://github.com/liraymond04/auav-web-dev)
 
-## Creating a project
+Search the project for `TODO` for hints on where to start
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation
+
+Install [Node.js](https://nodejs.org/en) version 18 or higher
 
 ```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+# install required packages
+npm i
 ```
 
 ## Developing
@@ -20,10 +19,9 @@ Once you've created a project and installed dependencies with `npm install` (or 
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+
+You can access the app at `http://localhost:5173`
 
 ## Building
 
