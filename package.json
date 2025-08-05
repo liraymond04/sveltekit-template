@@ -21,6 +21,7 @@
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/vite": "^4.0.0",
 		"@types/node": "^20",
+		"daisyui": "^5.0.50",
 		"drizzle-kit": "^0.30.2",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
@@ -30,7 +31,6 @@
 	},
 	"dependencies": {
 		"@libsql/client": "^0.14.0",
-		"daisyui": "^5.0.50",
 		"drizzle-orm": "^0.40.0"
 	}
 }
