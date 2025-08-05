@@ -13,6 +13,11 @@ Install [Node.js](https://nodejs.org/en) version 18 or higher
 npm i
 ```
 
+```sh
+# set up .env variables
+cp .env.example .env
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
