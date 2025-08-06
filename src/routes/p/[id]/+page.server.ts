@@ -4,9 +4,13 @@
 //
 // What might we want to use a dynamic route for?
 //
-import { json, type RequestHandler } from "@sveltejs/kit"
+import { json } from "@sveltejs/kit"
+import type { PageServerLoad } from "./$types";
 
-export const GET: RequestHandler = async ({ params }) => {
+export const load: PageServerLoad = async ({ params }) => {
   const id = parseInt(params?.id || '0');
-  return json({ success: true }, { status: 200 })
+
+  return {
+    id,
+  }
 }
