@@ -23,6 +23,12 @@ cp .env.example .env
 npm run db:push
 ```
 
+```sh
+# (optional) to view and update the database in the browser
+# run the following command, and go to local.drizzle.studio in the browser
+npm run db:studio
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
