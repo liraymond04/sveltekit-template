@@ -11,5 +11,8 @@
     <a class="btn btn-ghost text-xl" href="/">
       <span class="text-2xl font-semibold">Home</span>
     </a>
+    <a href="/post/add" class="btn">Add new post</a>
+    <a href="/post/delete" class="btn">Delete post</a>
+    <a href="/post/update" class="btn">Update post</a>
   </div>
 </nav>
