@@ -18,6 +18,11 @@ npm i
 cp .env.example .env
 ```
 
+```sh
+# initialize database
+npm run db:push
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
